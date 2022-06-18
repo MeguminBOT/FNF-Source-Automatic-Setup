@@ -341,7 +341,7 @@ echo --
 echo Your PC will need to reboot before running any of the optional scripts.
 echo --
 echo The Setup2.bat script can automatically 
-echo download latest stable versions of Psych/Kade source code or custom github repo for you.
+echo download latest stable versions of Psych/Kade source code for you.
 echo It also offers to run a compile test to make sure everything is working.
 echo --
 echo Save any work you have open, then press any key to reboot.
