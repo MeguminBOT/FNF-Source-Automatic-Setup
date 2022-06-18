@@ -1,5 +1,9 @@
+|[Download here](https://github.com/MeguminBOT/FNF-Source-Automatic-Setup/releases/tag/V1.0.0)| Video: Script in Action(not available yet) |
+|--|--|
+
+
 # The Automated FNF Build Environment Setup
-<img alt="github/funnyimagelol.png" src="github/funnyimagelol.png" width="640"/>
+<img alt="github/funnyimagelol.png" src="github/funnyimagelol.png" width="360"/>
 
 ### Table of Contents
   - [Introduction](#introduction)
@@ -9,6 +13,7 @@
   - [What EXACTLY is the script installing?](#what-exactly-is-the-script-installing)
   - [If you are paranoid over executable scripts on the internet](#if-you-are-paranoid-over-executable-scripts-on-the-internet)
   - [Having Issues?](#having-issues)
+  - [Future Plans](#future-plans)
 
 ---
 
@@ -17,14 +22,31 @@ Automatically setup everything you need to compile FNF from source,
 From Prerequisites, downloading source code to the compiling process,     
 It also deletes the setup files after they've been installed!
 
-Well, in reality... it's semi-automatic, you still need to interact with the script window to confirm/skip or select an option.  
+_Well, in reality... it's semi-automatic_, you still need to interact with the script window to `confirm`/`skip` or choose an `option`.  
 The downloading the correct things part and configuring the build environment is fully automatic.
+
+Setup1.bat was originally from [Tuxsuper](https://gamebanana.com/members/1787500)'s [Source Code Guide | OVERHAUL!.](https://gamebanana.com/tuts/13798).
+It's been heavily improved upon and updated to download exactly everything you need!
+
+Before it handled the following:  
+`Visual Studio & Haxelibs`  
+
+Now it handles everything!:  
+ `Git, Haxe, Haxelibs, Visual Studio 2019 + Visual Community Components, Visual Studio Code + Visual Code Extensions & GitHub Desktop`  
+Also adjusts Haxelibs/Haxe version depending on which Engine you choose. See [What EXACTLY is the script installing?](#what-exactly-is-the-script-installing) for detailed info.
+
+But why?
+ 1. Make it easier for completely new coders 
+ 2. People who need to get their build environment up or fixed again in a faster way.
+
+Setup2.bat is an extra addition I decided to make.
+It downloads a stable release of your desired engine and test compile it before any changes are made to the source code, to make sure that the build environment was setup properly.
 
 ---
 
 ### Supported Engines
-- Psych Engine
-- Kade Engine
+- Psych Engine 0.5.2h
+- Kade Engine 1.8
 
 _Probably supports most forks Psych too unless they require extra libraries_
 
@@ -32,7 +54,7 @@ _Probably supports most forks Psych too unless they require extra libraries_
 
 ### Supported Operating Systems
 
-- Windows 10 v1603 or higher (64-bit version only)
+- Windows 10 v1703 or higher (64-bit version only)
 - Windows 11
 
 ---
@@ -114,10 +136,11 @@ Post a new issue [here](https://github.com/MeguminBOT/FNF-Source-Automatic-Setup
 
 ---
 ### Future Plans
-[] Support OSX and Linux with automated scripts
-[] Support PowerShell and Mingw64/Git Bash
-[] Support more engines
-[] Make the script smarter instead of manually having to call everything over and over.
-[] Graphical User Interface maybe?
-[] Wiki: lists of required dependencies, what differs from each engines setup and why?
-[] Wiki: Manual setup guide
+- [ ] Support OSX and Linux with automated scripts
+- [ ] Support PowerShell and Mingw64/Git Bash
+- [ ] Support more engines
+- [ ] Support custom repos
+- [ ] Make the script smarter instead of manually having to call everything over and over.
+- [ ] Graphical User Interface maybe?
+- [ ] Wiki: lists of required dependencies, what differs from each engines setup and why?
+- [ ] Wiki: Manual setup guide
