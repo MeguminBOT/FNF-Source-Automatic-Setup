@@ -1,9 +1,9 @@
-|[Download here](https://github.com/MeguminBOT/FNF-Source-Automatic-Setup/releases/tag/V1.0.0)| Video: Script in Action(not available yet) |
-|--|--|
+| [Download here](https://github.com/MeguminBOT/FNF-Source-Automatic-Setup/releases/tag/V1.0.0) | [Gamebanana Page](https://gamebanana.com/tools/9691) | Video: Script in Action(not available yet) |
+|--|--|--|
 
 
 # The Automated FNF Build Environment Setup
-<img alt="github/funnyimagelol.png" src="github/funnyimagelol.png" width="360"/>
+<img alt="github/funnyimagelol.png" src="github/funnyimagelol.png" width="360"/> <img alt="github/script1_preview_HaxePrompt.png" src="github/script1_preview_HaxePrompt.png" width="360"/> <img alt="github/script2_preview_downloadingSource.png" src="github/script2_preview_downloadingSource.png" width="360"/> 
 
 ### Table of Contents
   - [Introduction](#introduction)
