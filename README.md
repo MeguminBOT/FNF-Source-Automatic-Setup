@@ -1,4 +1,4 @@
-| [Download here](https://github.com/MeguminBOT/FNF-Source-Automatic-Setup/releases/tag/V1.0.0) | [Gamebanana Page](https://gamebanana.com/tools/9691) | Video: Script in Action(not available yet) |
+| [Download here](https://github.com/MeguminBOT/FNF-Source-Automatic-Setup/releases/tag/V1.0.0) | [Gamebanana Page](https://gamebanana.com/tools/9691) | [Video: Script in Action](https://youtu.be/Lke28rvWaxE) |
 |--|--|--|
 
 
