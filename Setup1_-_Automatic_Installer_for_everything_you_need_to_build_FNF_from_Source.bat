@@ -175,24 +175,23 @@ echo haxelib path is now C:/haxelib
 haxelib setup C:/haxelib
 echo Installing haxelib libraries...
 haxelib setup C:/haxelib
-haxelib install lime
+haxelib install lime 7.9.0
 haxelib install openfl
-haxelib --never install flixel
-haxelib run lime setup flixel
-haxelib run lime setup 
+haxelib install flixel
 haxelib install flixel-tools
 haxelib install flixel-ui
-haxelib install flixel-addons
-haxelib install tjson
-haxelib install hxjsonast
 haxelib install hscript
-haxelib git hxCodec https://github.com/polybiusproxy/hxCodec
-haxelib git polymod https://github.com/larsiusprime/polymod.git
-haxelib git linc_luajit https://github.com/AndreiRudenko/linc_luajit
-haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
+haxelib install flixel-addons
+haxelib install actuate
+haxelib run lime setup
+haxelib run lime setup flixel
+haxelib run flixel-tools setup
+haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit.git
+haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
+haxelib git faxe https://github.com/uhrobots/faxe
+haxelib git polymod https://github.com/MasterEric/polymod.git
 haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
-haxelib install hxcpp > nul
-haxelib install hxcpp-debug-server
+haxelib git extension-webm https://github.com/KadeDev/extension-webm
 title FNF Automatic Build Environment Setup Script - Verify Haxe libraries
 echo --
 echo Press any key to list all packages and verify that they got installed successfully.
