@@ -41,13 +41,13 @@ echo Created folder at C:\Github and changed script work path to it.
 echo --
 echo Now downloading the latest stable Psych Engine Source Code to C:\GitHub\
 echo This can take several minutes, please be patient.
-curl -L -# -O https://github.com/ShadowMario/FNF-PsychEngine/archive/refs/tags/0.5.2h.zip
+curl -L -# -O https://github.com/ShadowMario/FNF-PsychEngine/archive/refs/tags/0.6.2.zip
 echo --
 echo Extracting the Source Code...
-tar -xvf 0.5.2h.zip -C C:\GitHub
+tar -xvf 0.6.2.zip -C C:\GitHub
 echo --
 echo Deleting the zip file...
-del 0.5.2h.zip
+del 0.6.2.zip
 echo --
 echo Press any key to continue. 
 pause >nul
@@ -73,8 +73,8 @@ set /p menu="Do you want to test compile to see if everything is working as it s
 :SourcePsychCompileTestC
 cls
 title FNF Automatic Build Environment Setup Script Part 2 - Compiling Source Code.
-chdir C:\GitHub\FNF-PsychEngine-0.5.2h
-echo Changed script work path to C:\GitHub\FNF-PsychEngine-0.5.2h
+chdir C:\GitHub\FNF-PsychEngine-0.6.2
+echo Changed script work path to C:\GitHub\FNF-PsychEngine-0.6.2
 echo --
 echo Running the compile command
 echo --
@@ -90,17 +90,17 @@ cls
 title FNF Automatic Build Environment Setup Script Part 2 - Downloading Source Code to D: Drive.
 mkdir D:\GitHub
 chdir D:\GitHub
-echo Created folder at C:\Github and changed script work path to it.
+echo Created folder at D:\Github and changed script work path to it.
 echo --
 echo Now downloading the latest stable Psych Engine Source Code to D:\GitHub\
 echo This can take several minutes, please be patient.
-curl -L -# -O https://github.com/ShadowMario/FNF-PsychEngine/archive/refs/tags/0.5.2h.zip
+curl -L -# -O https://github.com/ShadowMario/FNF-PsychEngine/archive/refs/tags/0.6.2.zip
 echo --
 echo Extracting the Source Code...
-tar -xvf 0.5.2h.zip -D D:\GitHub
+tar -xvf 0.6.2.zip -D D:\GitHub
 echo --
 echo Deleting the zip file...
-del 0.5.2h.zip
+del 0.6.2.zip
 echo --
 echo Press any key to continue. 
 pause >nul
@@ -126,8 +126,8 @@ set /p menu="Do you want to test compile to see if everything is working as it s
 :SourcePsychCompileTestD
 cls
 title FNF Automatic Build Environment Setup Script Part 2 - Compiling Source Code.
-chdir D:\GitHub\FNF-PsychEngine-0.5.2h
-echo Changed script work path to D:\GitHub\FNF-PsychEngine-0.5.2h
+chdir D:\GitHub\FNF-PsychEngine-0.6.2
+echo Changed script work path to D:\GitHub\FNF-PsychEngine-0.6.2
 echo --
 echo Running the compile command
 echo --
@@ -147,13 +147,13 @@ echo Created folder at E:\Github and changed script work path to it.
 echo --
 echo Now downloading the latest stable Psych Engine Source Code to E:\GitHub\
 echo This can take several minutes, please be patient.
-curl -L -# -O https://github.com/ShadowMario/FNF-PsychEngine/archive/refs/tags/0.5.2h.zip
+curl -L -# -O https://github.com/ShadowMario/FNF-PsychEngine/archive/refs/tags/0.6.2.zip
 echo --
 echo Extracting the Source Code...
-tar -xvf 0.5.2h.zip -E E:\GitHub
+tar -xvf 0.6.2.zip -E E:\GitHub
 echo --
 echo Deleting the zip file...
-del 0.5.2h.zip
+del 0.6.2.zip
 echo --
 echo Press any key to continue. 
 pause >nul
@@ -179,8 +179,8 @@ set /p menu="Do you want to test compile to see if everything is working as it s
 :SourcePsychCompileTestE
 cls
 title FNF Automatic Build Environment Setup Script Part 2 - Compiling Source Code.
-chdir E:\GitHub\FNF-PsychEngine-0.5.2h
-echo Changed script work path to E:\GitHub\FNF-PsychEngine-0.5.2h
+chdir E:\GitHub\FNF-PsychEngine-0.6.2
+echo Changed script work path to E:\GitHub\FNF-PsychEngine-0.6.2
 echo --
 echo Running the compile command
 echo --
