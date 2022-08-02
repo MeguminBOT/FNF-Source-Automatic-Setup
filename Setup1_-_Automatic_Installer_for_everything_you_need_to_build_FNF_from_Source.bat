@@ -143,9 +143,9 @@ haxelib install flixel-addons
 haxelib install tjson
 haxelib install hxjsonast
 haxelib install hscript
-haxelib git hxCodec https://github.com/polybiusproxy/hxCodec
+haxelib install hxCodec
 haxelib git polymod https://github.com/larsiusprime/polymod.git
-haxelib git linc_luajit https://github.com/AndreiRudenko/linc_luajit
+haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
 haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
 haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
 haxelib install hxcpp > nul
