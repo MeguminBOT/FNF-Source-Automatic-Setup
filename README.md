@@ -135,12 +135,10 @@ Or perhaps you found a bug?
 Post a new issue [here](https://github.com/MeguminBOT/FNF-Source-Automatic-Setup/issues) and I'll get back to you as fast as I can
 
 ---
-### Future Plans
+### Future Plans / Things that can be improved
 - [ ] Support OSX and Linux with automated scripts
-- [ ] Support PowerShell and Mingw64/Git Bash
+- [ ] Better Support for PowerShell and Mingw64/Git Bash
 - [ ] Support more engines
 - [ ] Support custom repos
 - [ ] Make the script smarter instead of manually having to call everything over and over.
 - [ ] Graphical User Interface maybe?
-- [ ] Wiki: lists of required dependencies, what differs from each engines setup and why?
-- [ ] Wiki: Manual setup guide
