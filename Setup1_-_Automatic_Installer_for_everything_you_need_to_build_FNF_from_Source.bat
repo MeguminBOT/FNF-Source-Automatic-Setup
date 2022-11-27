@@ -26,10 +26,10 @@ set /p menu="Would you like to automatically install/update Git for Windows? [Y/
 :InstallGit 
 cls
 title FNF Automatic Build Environment Setup Script - Downloading Git for Windows
-curl -L -# -O https://github.com/git-for-windows/git/releases/download/v2.36.1.windows.1/Git-2.36.1-64-bit.exe
+curl -L -# -O https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-64-bit.exe
 title FNF Automatic Build Environment Setup Script - Installing Git for Windows
-Git-2.36.1-64-bit.exe
-del Git-2.36.1-64-bit.exe
+Git-2.38.1-64-bit.exe
+del Git-2.38.1-64-bit.exe
 echo Deleting setup file...
 title FNF Automatic Build Environment Setup Script - Installed Git for Windows
 echo -- 
@@ -296,7 +296,8 @@ title FNF Automatic Build Environment Setup Script - Github Desktop
 echo GitHub Desktop makes it easier to track what changes you've made and can revert changes in one button press if needed. 
 echo It can be used locally only too if desired.
 echo --
-echo *Optional but recommended*
+echo *Optional*
+echo Note that this will install a slightly older version but can be automatically updated afterwards.
 echo --
 set /p menu="Would you like to install GitHub Desktop? /~100 MB [Y/N]"
        if %menu%==Y goto InstallGithubDesktop
@@ -334,8 +335,7 @@ cls
 title FNF Automatic Build Environment Setup Script - Information
 echo Now everything that you need should be installed.
 echo --
-echo Don't use the command "lime test windows" to build, it's outdated and doesn't actually properly compile the game.
-echo Instead, use "haxelib run lime build windows" to properly build the game.
+echo Use the command "haxelib run lime build windows" in the root of your source code to build.
 echo --
 echo Your PC will need to reboot before running any of the optional scripts.
 echo --
