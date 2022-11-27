@@ -34,7 +34,7 @@ del 0.6.3.zip
 echo --
 echo Press any key to continue. 
 pause >nul
-goto SourcePsychCompilePromptC
+goto SourcePsychCompilePrompt
 
 :SourcePsychCompilePrompt
 cls
