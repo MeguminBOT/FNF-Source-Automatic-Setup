@@ -45,13 +45,6 @@
       "version": "2.5.1"
     },
     {
-      "name": "hxcpp",
-      "type": "git",
-      "dir": null,
-      "ref": "c3e5ab8",
-      "url": "https://github.com/HaxeFoundation/hxcpp"
-    },
-    {
       "name": "hxcpp-debug-server",
       "type": "haxelib",
       "version": "1.2.4"
@@ -82,6 +75,13 @@
       "name": "tjson",
       "type": "haxelib",
       "version": "1.4.0"
+    },
+    {
+      "name": "hxcpp",
+      "type": "git",
+      "dir": null,
+      "ref": "c3e5ab8",
+      "url": "https://github.com/HaxeFoundation/hxcpp"
     }
   ]
 }
